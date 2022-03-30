@@ -1,0 +1,49 @@
+.BTECH {
+  background-color: rgba(147, 207, 35, 0.6);
+}
+h1 {
+  color: rgb(230, 48, 48);
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Test {
+  background-color: green;
+  border-radius: 2%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.Test1 {
+  background-color: red;
+  border-radius: 2%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+#btn {
+  padding: 1%;
+  background-color: pink;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5%;
+  margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .Test {
+    font-size: 1.2em;
+    color: aqua;
+  }
+  .Test1 {
+    font-size: 1.2em;
+  }
+}
